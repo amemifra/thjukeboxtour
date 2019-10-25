@@ -37,7 +37,7 @@
 </svelte:head>
 
 <figure>
-	<img alt='Ciao Ragazzi! Il senso della vita è semplice. Finirla!' src='stocazzo.jpg'>
+	<img alt='Ciao Ragazzi! Il senso della vita è semplice. Finirla!' src='stocazzo.png'>
 	<figcaption>The JukeBox Tour</figcaption>
 </figure>
 

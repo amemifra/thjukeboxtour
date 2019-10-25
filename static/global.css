@@ -34,3 +34,33 @@ code {
 		font-size: 16px;
 	}
 }
+
+div.playlist {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+div.playlist section, section.album {
+	flex-basis: 20rem;
+	display: flex;
+	flex-direction: column;
+}
+
+section figure {
+	height: 20rem;
+	width: 20rem;
+	margin: 1rem;
+	position: relative;
+}
+
+section figure h2, section figure a  {
+	position: absolute;
+	bottom: 1rem;
+	right: 1rem;
+}
+
+
+section ul {
+	list-style-type: none;
+}
