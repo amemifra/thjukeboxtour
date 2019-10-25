@@ -77,7 +77,7 @@
         <ul>
         {#each songs as song}
             <li>
-                <a href="">
+                <a href="{song.link}">
                     {song.name}
                 </a>
                 <span>

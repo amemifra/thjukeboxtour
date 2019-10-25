@@ -22,8 +22,6 @@
 	<title>Canzoni</title>
 </svelte:head>
  
-<h1>Seleziona la tua playlist preferita</h1>
-
 <div>
 	<section class="album">
 		<figure style="background-color: purple; color: #FAFAFA;">
