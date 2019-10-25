@@ -33,14 +33,11 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>The JukeBox Tour</title>
 </svelte:head>
 
-<h1>Great success!</h1>
-
 <figure>
-	<img alt='Borat' src='great-success.png'>
-	<figcaption>HIGH FIVE!</figcaption>
+	<img alt='Ciao Ragazzi! Il senso della vita è semplice. Finirla!' src='stocazzo.png'>
+	<figcaption>The JukeBox Tour</figcaption>
 </figure>
 
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
