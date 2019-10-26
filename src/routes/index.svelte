@@ -4,6 +4,7 @@ import { onMount } from 'svelte'
 	let showInsta = false
 	onMount(() => {
 		showInsta = true
+		// fetch('set-up/get').then(r => r.json()).then(r => console.log(r))
 	})
 </script>
 
