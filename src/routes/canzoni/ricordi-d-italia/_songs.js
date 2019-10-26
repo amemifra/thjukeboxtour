@@ -352,7 +352,7 @@ const songs = [{
     che voglia di piangere ho.
     </p>`
 }, {
-    test: 'Ballata dell\'amore cieco',
+    title: 'Ballata dell\'amore cieco',
     artist: 'Fabrizio De Andrè',
     slug: 'ballata-dell-amore-cieco',
     text: `
