@@ -776,57 +776,346 @@ const songs = [{
     </p>
     `
 }, {
-    title: 'Me so\' mbriacato',
-    artist: 'Mannarino',
-    slug: 'me-so-mbriacato',
+   title: 'Baciami ancora',
+   artist: 'Jovanotti',
+   slug: 'baciami-ancora',
+   text: `
+   <p>
+    One, due, tre, four<br>
+    Un bellissimo spreco di tempo<br>
+    Un'impresa impossibile<br>
+    L'invenzione di un sogno<br>
+    Una vita in un giorno<br>
+    Una tenda al di là della duna<br>
+    Un pianeta in un sasso, l'infinito in un passo<br>
+    Un riflesso di un sole sull'onda di un fiume<br>
+    Son tornate le lucciole a Roma<br>
+    Nei parchi del centro l'estate profuma<br>
+    Una mamma, un amante, una figlia<br>
+    Un impegno, una volta una nuvola scura<br>
+    Un magnete sul frigo, un quaderno di appunti<br>
+    Una casa, un aereo che vola<br>
+    Baciami ancora<br>
+    Baciami ancora<br>
+    Tutto il resto è un rumore lontano<br>
+    Una stella che esplode ai confini del cielo<br>
+    Ooh, baciami ancora<br>
+    Baciami ancora<br>
+    Voglio stare con te<br>
+    Inseguire con te<br>
+    Tutte le onde del nostro destino<br>
+    Una bimba che danza, un cielo, una stanza<br>
+    Una strada, un lavoro, una scuola<br>
+    Un pensiero che sfugge<br>
+    Una luce che sfiora<br>
+    Una fiamma che incendia l'aurora<br>
+    Un errore perfetto, un diamante, un difetto<br>
+    Uno strappo che non si ricuce<br>
+    Un respiro profondo per non impazzire<br>
+    Una semplice storia d'amore<br>
+    Un pirata, un soldato, un dio da tradire<br>
+    E l'occasione che non hai mai incontrato<br>
+    La tua vera natura, la giustizia del mondo<br>
+    Che punisce chi ha le ali e non vola<br>
+    Baciami ancora<br>
+    Baciami ancora<br>
+    Tutto il resto è un rumore lontano<br>
+    Una stella che esplode ai confini del cielo<br>
+    Ooh, baciami ancora<br>
+    Baciami ancora<br>
+    Voglio stare con te<br>
+    Invecchiare con te<br>
+    Stare soli io e te sulla luna<br>
+    Coincidenze, il destino<br>
+    Un gigante, un bambino<br>
+    Che gioca con l'arco e le frecce<br>
+    Che colpisce e poi scappa<br>
+    Un tesoro, una mappa<br>
+    E l'amore che detta ogni legge<br>
+    Per provare a vedere<br>
+    Che c'è laggiù in fondo<br>
+    Dove sembra impossibile stare da soli<br>
+    A guardarsi negli occhi<br>
+    A riempire gli specchi<br>
+    Con i nostri riflessi migliori<br>
+    Ooh, baciami ancora<br>
+    Baciami ancora<br>
+    Voglio stare con te<br>
+    Inseguire con te<br>
+    Tutte le onde del nostro destino<br>
+    Ooh, baciami ancora<br>
+    Baciami ancora<br>
+    Baciami ancora<br>
+    Baciami ancora<br>
+    Baciami ancora<br>
+    Baciami ancora<br>
+    Baciami ancora<br>
+    Baciami ancora<br>
+    Baciami ancora<br>
+    All right, baby
+   </p>
+   ` 
+}, {
+    title: 'Ti raserò l\'aiuola',
+    artist: 'Gianluca Grignani',
+    slug: 'ti-rasero-l-aiuola',
     text: `
     <p>
-    Quando io sono solo con te<br>
-    Sogno immerso in una tazza di the<br>
-    Ma che caldo qua dentro<br>
-    Ma che bello il momento<br>
-    Quando sono con te<br>
-    Non so più chi sono perché<br>
-    Crolla il pavimento<br>
-    E mi sciolgo di dentro<br>
-    Quando penso a te<br>
-    Mi sento denso perché<br>
-    Io ti tengo qua dentro di me<br>
-    Io ti tengo qua dentro con me<br>
-    Me so' 'mbriacato de 'na donna<br>
-    Quanto è bbono l'odore della gonna<br>
-    Quanto è bbono l'odore der mare<br>
-    Ce vado de notte a cerca' le parole<br>
-    Quanto è bbono l'odore der vento<br>
-    Dentro lo sento, dentro lo sento<br>
-    Quanto è bbono l'odore dell'ombra<br>
-    Quando c'è 'r sole che sotto rimbomba<br>
-    Come rimbomba l'odore dell'ombra<br>
-    Come rimbomba, come rimbomba<br>
-    E come parte e come ritorna<br>
-    Come ritorna l'odore dell'onda<br>
-    Quando io sono solo con te<br>
-    Io cammino meglio perché<br>
-    La mia schiena è più dritta<br>
-    La mia schiena è più dritta<br>
-    Quando sono con te<br>
-    Io mangio meglio perché<br>
-    Non mi devo sfamare<br>
-    Non mi devo saziare con te<br>
-    Me so' 'mbriacato de 'na donna<br>
-    Quanto è bbono l'odore della gonna<br>
-    Quanto è bbono l'odore der mare<br>
-    Ce vado de notte a cerca' le parole<br>
-    Quanto è bbono l'odore del vento<br>
-    Dentro lo sento, dentro lo sento<br>
-    Quanto è bbono l'odore dell'ombra<br>
-    Quando c'è 'r sole che sotto rimbomba<br>
-    Come rimbomba l'odore dell'ombra<br>
-    Come rimbomba, come rimbomba<br>
-    E come parte e come ritorna<br>
-    Come ritorna l'odore dell'onda<br>
+    Ti rasero laiuola<br>
+    Quando ritorni da scuola<br>
+    Ok, ti voglio bene<br>
+    Ma molla le tue amiche sceme<br>
+    E amore e come anarchia<br>
+    E dillo alla polizia<br>
+    Va be sara un difetto<br>
+    Ma per favore andiamo a letto<br>
+    Perchea volte la felicita<br>
+    Ti sfiora appena e poi se ne va<br>
+    Ti dice scusa, ciao, passavo di qua<br>
+    Come una donna che non ci sta<br>
+    Eppure a me non mi va,<br>
+    Non va, sai di starmene qua<br>
+    Qua sospeso a meta<br>
+    No non mi vai bene<br>
+    E goder non conviene<br>
+    E mi tieni in catene<br>
+    No non mi va se cade un pelo<br>
+    Crolla il cielo<br>
+    Non mi va, non mi va<br>
+    La notte poi vado in giro<br>
+    Come se fossi un vampiro<br>
+    Che sono in cerca damore<br>
+    Per colpa io del tuo onore<br>
+    E le signore piu belle<br>
+    Mi danno le caramelle<br>
+    E tu che mi dici aspetta<br>
+    Che vado troppo di fretta<br>
+    Perchea volte la felicita<br>
+    Ti sfiora appena e poi se ne va<br>
+    Ti dice scusa<br>
+    Ciao passavo di qua<br>
+    Come una donna che non ci sta<br>
+    Eppure a me non mi va<br>
+    Non va sai di starmene qua<br>
+    Qua sospeso a meta<br>
+    No non mi vai bene<br>
+    E goder non conviene<br>
+    E mi tieni in catene<br>
+    No, non mi va<br>
+    E se cade un pelo<br>
+    Crolla il cielo<br>
+    Non mi va, non mi va<br>
+    Eppure a me non mi va<br>
+    Non va, sai di starmene qua<br>
+    Qua sospeso a meta<br>
+    Non mi vai bene<br>
+    E goder non conviene<br>
+    E mi tieni in catene<br>
+    No non mi va<br>
+    Che se cade un pelo<br>
+    Crolla il cielo<br>
+    Non mi va<br>
+    No.
     </p>
     `
-}]
+}, {
+    title: 'Canapa',
+    artist: 'Punkreas',
+    slug: 'canapa',
+    text: `
+    <p>
+    Sei mesi di condizionale<br>
+    non sono niente male<br>
+    per aver seminato sul mio davanzale<br>
+    sei mesi di attenzioni e cure<br>
+    per tenere creature<br>
+    con foglie a sette punte con un buon odore.<br>
+    Marzo la pianti<br>
+    e aspetti che spunti<br>
+    Aprile la bagni e cresce!<br>
+    A maggio le femmine e i maschi separi<br>
+    A giugno si riempie di fiori!<br>
+    Ma ottobre è mese di raccolta,<br>
+    mi suonano alla porta,<br>
+    non sospettando niente<br>
+    io apro all'attendente<br>
+    sei mesi di fatica dura per questa fioritura,<br>
+    me l'hanno sequestrata ed ora sta in questura!<br>
+    Marzo la pianti e aspetti che spunti<br>
+    Aprile la bagni e cresce!<br>
+    Da maggio a settembre la vedi fiorire<br>
+    A ottobre raccogli e puoi dire:<br>
+    L'ho coltivata io!<br>
+    non me ne pento neanche un pò!<br>
+    E pensare che la cannabis sativa<br>
+    potrebbe risanare questo mondo alla deriva<br>
+    potrebbe soppiantare petrolio e derivati,<br>
+    la plastica ed i farmaci cui siamo abituati.<br>
+    Sarà per questo che è vietata,ai despoti non piace<br>
+    la gente rilassata e l'energia pulita.<br>
+    Marzo la pianti e aspetti che spunti<br>
+    Aprile la bagni e cresce!<br>
+    A maggio le femmine e i maschi separi<br>
+    A giugno si riempie di fiori!<br>
+    Marzo la pianti e aspetti che spunti<br>
+    Aprile la bagni e cresce!<br>
+    Da maggio a settembre la vedi fiorire<br>
+    A ottobre raccogli e puoi dire:<br>
+    L'ho coltivata io!<br>
+    non me ne pento neanche un pò!<br>
+    L'ho coltivata io!<br>
+    scommetti che lo rifarò!
+    </p>
+    `
+}, {
+    title: 'Gli anni',
+    artist: 'Max Pezzali',
+    slug: 'gli-anni',
+    text: `
+    <p>
+    Stessa storia, stesso posto, stesso bar<br>
+    stessa gente che vien dentro consuma e poi va<br>
+    non lo so che faccio quì<br>
+    esco un pò<br>
+    e vedo i fari delle auto che mi<br>
+    guardano e sembrano chiedermi chi cerchiamo noi<br>
+    Gli anni d'oro del grande Real<br>
+    gli anni di Happy days e di Ralph Malph<br>
+    gli anni delle immense compagnie<br>
+    gli anni in motorino sempre in due<br>
+    gli anni di che belli erano i film<br>
+    gli anni dei Roy Rogers come jeans<br>
+    gli anni di qualsiasi cosa fai<br>
+    gli anni del tranquillo siam qui noi<br>
+    siamo qui noi<br>
+    Stessa storia, stesso posto, stesso bar<br>
+    una coppia che conosco ci avrà la mia età<br>
+    come va<br>
+    salutano<br>
+    così io<br>
+    vedo le fedi alle dita di due<br>
+    che porco giuda potrei essere io qualche anno fa<br>
+    Gli anni d'oro del grande Real<br>
+    gli anni di Happy days e di Ralph Malph<br>
+    gli anni delle immense compagnie<br>
+    gli anni in motorino sempre in due<br>
+    gli anni di che belli erano i film<br>
+    gli anni dei Roy Rogers come jeans<br>
+    gli anni di qualsiasi cosa fai<br>
+    gli anni del tranquillo siam qui noi<br>
+    siamo qui noi<br>
+    siamo qui noi<br>
+    Stessa storia, stesso posto, stesso bar<br>
+    stan quasi chiudendo<br>
+    poi me ne andrò a casa mia<br>
+    solo lei<br>
+    davanti a me<br>
+    cosa vuoi<br>
+    il tempo passa per tutti lo sai<br>
+    nessuno indietro lo riporterà neppure noi<br>
+    Gli anni d'oro del grande Real<br>
+    gli anni di Happy days e di Ralph Malph<br>
+    gli anni delle immense compagnie<br>
+    gli anni in motorino sempre in due<br>
+    gli anni di che belli erano i film<br>
+    gli anni dei Roy Rogers come jeans<br>
+    gli anni di qualsiasi cosa fai<br>
+    gli anni del tranquillo siam qui noi<br>
+    siamo qui noi<br>
+    siamo qui noi
+    </p>
+    `
+}, {
+    title: 'In un giorno di pioggia',
+    artist: 'Modena City Ramblers',
+    slug: 'in-un-giorno-di-pioggia',
+    text: `
+    <p>
+    Is è mo laoch, mo ghile mear<br>
+    Is è mo Shaesar<br>
+    Ghile mear<br>
+    Ni fhuras fein aon tsuan as sean<br>
+    O chuaigh i gcein mo ghile mear<br>
+    Addio, addio e un bicchiere levato al cielo d'Irlanda e alle nuvole gonfie<br>
+    Un nodo alla gola ed un ultimo sguardo alla vecchia Liffey e alle strade del porto<br>
+    Un sorso di birra per le verdi brughiere e un altro ai mocciosi coperti di fango<br>
+    E un brindisi anche agli gnomi a alle fate, ai folletti che corrono sulle tue strade<br>
+    Hai i fianchi robusti di una vecchia signora e i modi un po' rudi della gente di mare<br>
+    Ti trascini tra fango, sudore e risate e la puzza di alcool nelle notti d'estate<br>
+    E un vecchio compagno ti segue paziente, il mare si sdraia fedele ai tuoi piedi<br>
+    Ti culla leggero nelle sere d'inverno, ti riporta le voci degli amanti di ieri<br>
+    È in un giorno di pioggia che ti ho conosciuta<br>
+    E il vento dell'ovest rideva gentile<br>
+    E in un giorno di pioggia ho imparato ad amarti<br>
+    Mi hai preso per mano portandomi via<br>
+    Hai occhi di ghiaccio ed un cuore di terra, hai il passo pesante di un vecchio ubriacone<br>
+    Ti chiudi a sognare nelle notti d'inverno e ti copri di rosso e fiorisci d'estate<br>
+    I tuoi esuli parlano lingue straniere, si addormentano soli sognando i tuoi cieli<br>
+    Si ritrovano persi in paesi lontani a cantare una terra di profughi e santi<br>
+    È in un giorno di pioggia che ti ho conosciuta<br>
+    E il vento dell'ovest rideva gentile<br>
+    In un giorno di pioggia ho imparato ad amarti<br>
+    Mi hai preso per mano portandomi via.<br>
+    E in un giorno di pioggia ti rivedrò ancora<br>
+    E potrò consolare i tuoi occhi bagnati<br>
+    In un giorno di pioggia saremo vicini<br>
+    Balleremo leggeri sull'aria di un Reel
+    </p>
+    `
+}
+// , {
+//     title: 'Me so\' mbriacato',
+//     artist: 'Mannarino',
+//     slug: 'me-so-mbriacato',
+//     text: `
+//     <p>
+//     Quando io sono solo con te<br>
+//     Sogno immerso in una tazza di the<br>
+//     Ma che caldo qua dentro<br>
+//     Ma che bello il momento<br>
+//     Quando sono con te<br>
+//     Non so più chi sono perché<br>
+//     Crolla il pavimento<br>
+//     E mi sciolgo di dentro<br>
+//     Quando penso a te<br>
+//     Mi sento denso perché<br>
+//     Io ti tengo qua dentro di me<br>
+//     Io ti tengo qua dentro con me<br>
+//     Me so' 'mbriacato de 'na donna<br>
+//     Quanto è bbono l'odore della gonna<br>
+//     Quanto è bbono l'odore der mare<br>
+//     Ce vado de notte a cerca' le parole<br>
+//     Quanto è bbono l'odore der vento<br>
+//     Dentro lo sento, dentro lo sento<br>
+//     Quanto è bbono l'odore dell'ombra<br>
+//     Quando c'è 'r sole che sotto rimbomba<br>
+//     Come rimbomba l'odore dell'ombra<br>
+//     Come rimbomba, come rimbomba<br>
+//     E come parte e come ritorna<br>
+//     Come ritorna l'odore dell'onda<br>
+//     Quando io sono solo con te<br>
+//     Io cammino meglio perché<br>
+//     La mia schiena è più dritta<br>
+//     La mia schiena è più dritta<br>
+//     Quando sono con te<br>
+//     Io mangio meglio perché<br>
+//     Non mi devo sfamare<br>
+//     Non mi devo saziare con te<br>
+//     Me so' 'mbriacato de 'na donna<br>
+//     Quanto è bbono l'odore della gonna<br>
+//     Quanto è bbono l'odore der mare<br>
+//     Ce vado de notte a cerca' le parole<br>
+//     Quanto è bbono l'odore del vento<br>
+//     Dentro lo sento, dentro lo sento<br>
+//     Quanto è bbono l'odore dell'ombra<br>
+//     Quando c'è 'r sole che sotto rimbomba<br>
+//     Come rimbomba l'odore dell'ombra<br>
+//     Come rimbomba, come rimbomba<br>
+//     E come parte e come ritorna<br>
+//     Come ritorna l'odore dell'onda<br>
+//     </p>
+//     `
+// }
+]
 
 export default songs;

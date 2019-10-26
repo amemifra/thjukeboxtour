@@ -1,6 +1,6 @@
 <script context="module">
 	export function preload({ params, query }) {
-		return this.fetch(`canzoni/respiri-d-italia.json`).then(r => r.json()).then(songs => {
+		return this.fetch(`canzoni/chicche-senza-tempo.json`).then(r => r.json()).then(songs => {
 			return { songs };
 		});
 	}
@@ -13,7 +13,7 @@
 
 <style>
     .album {
-        background-color: purple;
+        background-color: hsl(240, 100%, 50%);
         color: #FAFAFA;
     }
 
@@ -29,19 +29,19 @@
     }
 </style>
 <svelte:head>
-    <title>Respiri d'Italia</title>
+    <title>Chicche senza tempo</title>
 </svelte:head>
 
 
 <div class="playlist">
     <section>
         <figure class="album">
-            <h2>Respiri d'Italia</h2>
+            <h2>Chicche senza tempo</h2>
         </figure>
         <ul>
         {#each songs as song}
             <li>
-                <a href="canzoni/respiri-d-italia/{song.slug}">
+                <a href="canzoni/chicche-senza-tempo/{song.slug}">
                     {song.title}
                 </a>
                 <span>
