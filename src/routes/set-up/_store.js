@@ -1,7 +1,3 @@
-let currentPosition = {};
+import { writable } from 'svelte/store'
 
-export const position = Object.assign({}, currentPosition);
-
-export function setPosition(newPos) {
-    currentPosition = newPos
-}
+export const store = writable({})

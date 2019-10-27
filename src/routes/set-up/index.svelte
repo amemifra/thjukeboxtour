@@ -3,10 +3,12 @@
     const set = function() {
         if ('geolocation' in navigator) {
             navigator.geolocation.getCurrentPosition(async pos => {
-
-                const param = [pos.coords.accuracy, pos.coords.latitude, pos.coords.longitude]
-                 
-                await fetch(`set-up/${JSON.stringify(param)}`)
+                const val = {
+                    accuracy: pos.coords.accuracy,
+                    latitude: pos.coords.latitude,
+                    longitude: pos.coords.longitude
+                };
+                await fetch(`set-up.json`, { method: 'POST', body: JSON.stringify(val) })
                 currentPosition = pos.coords
             })
         }

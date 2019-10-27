@@ -2,9 +2,30 @@
 import { onMount } from 'svelte'
 	let songs = ['Nessuna canzone in coda']
 	let showInsta = false
-	onMount(() => {
+	let artistPosition
+
+	async function retrive() {
+		const res = await fetch('set-up.json')
+		const list = await fetch('vote.for')
+		songs = (await list.json()).map(e => e.artist + ' ' + e.title)
+		artistPosition = await res.json()
+		return new Promise((resolve, reject) => resolve(true))
+	}
+
+	onMount(async () => {
 		showInsta = true
-		// fetch('set-up/get').then(r => r.json()).then(r => console.log(r))
+		if ('geolocation' in navigator) {
+			await retrive()
+            navigator.geolocation.watchPosition(pos => {
+				const val = {
+					accuracy: pos.coords.accuracy,
+					latitude: pos.coords.latitude,
+					longitude: pos.coords.longitude
+				};
+				const distance = Math.abs(artistPosition.latitude - val.latitude) * artistPosition.accuracy / val.accuracy + Math.abs(artistPosition.longitude - val.longitude) * artistPosition.accuracy / val.accuracy
+				localStorage.setItem('distance', distance)
+			})
+		}
 	})
 </script>
 
@@ -45,7 +66,7 @@ import { onMount } from 'svelte'
 </svelte:head>
 
 <figure>
-	<img alt='Ciao Ragazzi! Il senso della vita è semplice. Finirla!' src='stocazzo.png'>
+	<img on:click={retrive} alt='Ciao Ragazzi! Il senso della vita è semplice. Finirla!' src='stocazzo.png'>
 	<figcaption>The JukeBox Tour</figcaption>
 </figure>
 
