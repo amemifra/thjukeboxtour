@@ -5,10 +5,11 @@ import { onMount } from 'svelte'
 	let artistPosition
 
 	async function retrive() {
-		const res = await fetch('set-up.json')
+		const res = await fetch('settings.json')
 		const list = await fetch('vote.for')
 		songs = (await list.json()).map(e => e.artist + ' ' + e.title)
 		artistPosition = await res.json()
+		console.log({artistPosition})
 		return new Promise((resolve, reject) => resolve(true))
 	}
 

@@ -8,7 +8,7 @@
                     latitude: pos.coords.latitude,
                     longitude: pos.coords.longitude
                 };
-                await fetch(`set-up.json`, { method: 'POST', body: JSON.stringify(val) })
+                await fetch(`settings.json`, { method: 'POST', body: JSON.stringify(val) })
                 currentPosition = pos.coords
             })
         }

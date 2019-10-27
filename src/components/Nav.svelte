@@ -1,5 +1,13 @@
 <script>
+import { goto } from '@sapper/app'
 	export let segment;
+
+	function console() {
+		let res = prompt('Inserisci il comando')
+		if (res === 'geolocation') {
+			goto('/settings')
+		}
+	}
 </script>
 
 <style>
@@ -46,13 +54,22 @@
 		padding: 1em 0.5em;
 		display: block;
 	}
+
+	li:last-of-type {
+		position: absolute;
+		right: .5em;
+		top: 1em;
+		color: transparent;
+		cursor: pointer;
+	}
 </style>
 
 <nav>
 	<ul>
-		<li><a class='{segment === undefined ? "selected" : ""}' href='.'>home</a></li>
-		<li><a class='{segment === "canzoni" ? "selected" : ""}' href='canzoni'>canzoni</a></li>
-		<li><a class='{segment === "vote" ? "selected" : ""}' href='vote'>vota</a></li>
+		<li><a rel=prefetch class='{segment === undefined ? "selected" : ""}' href='.'>home</a></li>
+		<li><a rel=prefetch class='{segment === "canzoni" ? "selected" : ""}' href='canzoni'>canzoni</a></li>
+		<li><a rel=prefetch class='{segment === "vote" ? "selected" : ""}' href='vote'>vota</a></li>
+		<li><div on:click={console}>console</div></li>
 
 		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
 		     the blog data when we hover over the link or tap it on a touchscreen -->

@@ -1,8 +1,10 @@
 import { store } from './_store'
 
-let value 
-
-store.subscribe(r => value = r)
+let value = {
+    accuracy: 0,
+    latitude: 0,
+    longitude: 0
+}
 
 export function post(req, res, next) {
     let body = '';
@@ -10,8 +12,8 @@ export function post(req, res, next) {
         body += chunk.toString();
     });
     req.on('end', () => {
-        const coor = JSON.parse(body);
-        store.set(coor)
+        value = JSON.parse(body)
+        console.log(value)
         res.writeHead(200, {
             'Content-Type': 'application/json'
         });
